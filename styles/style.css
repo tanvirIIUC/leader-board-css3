@@ -94,12 +94,13 @@ hr{
   .courses{
         display: grid;
         grid-template-columns: repeat(3,1fr);
-        grid-column-gap: 23px
+        grid-column-gap: 23px;
+        margin-right: 24px;
   }
   .course{
     box-shadow: 20px 20px 50px grey;
     border-radius: 5px;
-    margin-right: 36px;
+    padding: 12px;
 
   }
  .lates-course{
@@ -147,6 +148,9 @@ hr{
  .course-duration{
     font-size: 14.6913px;
     color: #FF4A60;
+    background-color: #FFE4E8;
+    border: 2px solid #FFE4E8;
+    border-radius: 10px;
  }
 
  /* responsibe */
@@ -169,8 +173,11 @@ hr{
         flex-direction: column;
         align-items: center;
            }
-    .blog-title, .author{
+    .blog-title, .author, .course{
        text-align: center;
+    }
+    .course-info{
+      margin-left: 28px;
     }
            
     }
