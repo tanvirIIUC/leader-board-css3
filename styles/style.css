@@ -167,6 +167,12 @@ hr{
     }
     .blog{
         flex-direction: column;
+        align-items: center;
+           }
+    .blog-title, .author{
+       text-align: center;
+    }
+           
     }
     
- }
+ 
